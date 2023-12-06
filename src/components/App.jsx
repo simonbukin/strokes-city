@@ -42,9 +42,7 @@ function App() {
     };
 
     const SEATGEEK_ENDPOINT = `https://api.seatgeek.com/2/events?performers.slug=${artistSlug}`;
-    console.table(SEATGEEK_ENDPOINT);
     const API_CALL = constructApiCall();
-    console.table(API_CALL);
     fetch(API_CALL)
       .then((res) => res.json())
       .then((result) => {
