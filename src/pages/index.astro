@@ -1,0 +1,82 @@
+---
+import { ReactEventLookup, SvelteEventLookup } from "../components";
+import Layout from "../layouts/Layout.astro";
+import themes from "../themes.json";
+
+const clientId = import.meta.env.VITE_SEATGEEK_CLIENT_ID;
+const clientSecret = import.meta.env.VITE_SEATGEEK_CLIENT_SECRET;
+
+const pickRandomString = (arr: string[]) =>
+  arr[Math.floor(Math.random() * arr.length)];
+
+type Theme = {
+  backgroundColor: string;
+  color: string;
+  buttonBackground: string;
+  linkColor: string;
+};
+
+themes as Record<string, Theme>;
+
+const strokesAlbums = [
+  "Is This It",
+  "Room on Fire",
+  "First Impressions of Earth",
+  "Angles",
+  "Comedown Machine",
+  "The New Abnormal",
+];
+
+const uiFrameworks = ["React", "Svelte"];
+
+const chosenTheme = pickRandomString(strokesAlbums);
+const formattedTheme = chosenTheme
+  .split(" ")
+  .map((s) => s.toUpperCase())
+  .join("_");
+const chosenUiFramework = pickRandomString(uiFrameworks);
+
+const themeColors = themes[formattedTheme as keyof typeof themes];
+const { backgroundColor, color, buttonBackground, linkColor } = themeColors;
+---
+
+<style
+  define:vars={{
+    backgroundColor: backgroundColor,
+    color: color,
+    buttonBackground: buttonBackground,
+    linkColor: linkColor,
+  }}
+>
+  body {
+    background-color: var(--backgroundColor);
+    color: var(--color);
+  }
+  a {
+    background: var(--buttonBackground);
+    padding: 0.2em;
+    border-radius: 10px;
+    color: var(--linkColor);
+  }
+</style>
+
+<Layout title="Strokes City">
+  <body>
+    <main class="flex h-screen flex-col px-8 py-4">
+      <h1 class="text-4xl font-bold">Strokes City</h1>
+      <p class="text-xl max-w-[70ch]">
+        This is a silly little website about the band The Strokes. It's built with
+        {chosenUiFramework} and is currently themed like their album, {
+          chosenTheme
+        }.
+      </p>
+      <p>Now, let's find out if The Strokes are going to be playing in your city...</p>
+      {chosenUiFramework === "React" && (
+        <ReactEventLookup client:only="react" clientId={clientId} clientSecret={clientSecret} />
+      )}
+      {chosenUiFramework === "Svelte" && (
+      <SvelteEventLookup client:only="svelte" clientId={clientId} clientSecret={clientSecret} />
+    )}
+    </main>
+  </body>
+</Layout>

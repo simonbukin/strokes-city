@@ -1,0 +1,201 @@
+{
+  "type": "concert",
+  "id": 6309628,
+  "datetime_utc": "2024-03-02T04:00:00",
+  "venue": {
+    "state": "CA",
+    "name_v2": "Oakland Arena",
+    "postal_code": "94621",
+    "name": "Oakland Arena",
+    "links": [],
+    "timezone": "America/Los_Angeles",
+    "url": "https://seatgeek.com/venues/oakland-arena/tickets",
+    "score": 0.76,
+    "location": {
+      "lat": 37.7503,
+      "lon": -122.203
+    },
+    "address": "7000 Coliseum Way",
+    "country": "US",
+    "has_upcoming_events": true,
+    "num_upcoming_events": 21,
+    "city": "Oakland",
+    "slug": "oakland-arena",
+    "extended_address": "Oakland, CA 94621",
+    "id": 132,
+    "popularity": 0,
+    "access_method": {
+      "method": "QRCODE_TM",
+      "created_at": "2015-11-04T18:42:51Z",
+      "employee_only": false
+    },
+    "metro_code": 807,
+    "capacity": 0,
+    "display_location": "Oakland, CA"
+  },
+  "datetime_tbd": false,
+  "performers": [
+    {
+      "type": "band",
+      "name": "Nicki Minaj",
+      "image": "https://seatgeek.com/images/performers-landscape/nicki-minaj-d7d942/2533/18971/huge.jpg",
+      "id": 2533,
+      "images": {
+        "huge": "https://seatgeek.com/images/performers-landscape/nicki-minaj-d7d942/2533/18971/huge.jpg"
+      },
+      "divisions": null,
+      "has_upcoming_events": true,
+      "primary": true,
+      "stats": {
+        "event_count": 32
+      },
+      "taxonomies": [
+        {
+          "id": 2000000,
+          "name": "concerts",
+          "parent_id": null,
+          "document_source": {
+            "source_type": "ELASTIC",
+            "generation_type": "FULL"
+          },
+          "rank": 0,
+          "seo_event_type": ""
+        }
+      ],
+      "image_attribution": "Michael Tran / FilmMagic / Getty Images",
+      "url": "https://seatgeek.com/nicki-minaj-tickets",
+      "score": 0.74,
+      "slug": "nicki-minaj",
+      "home_venue_id": null,
+      "short_name": "Nicki Minaj",
+      "num_upcoming_events": 32,
+      "colors": null,
+      "image_license": "rightsmanaged",
+      "genres": [
+        {
+          "id": 452,
+          "name": "Pop",
+          "slug": "pop",
+          "primary": true,
+          "images": {
+            "1200x525": "https://seatgeek.com/images/performers-landscape/drake-b808d2/2351/1200x525.jpg",
+            "1200x627": "https://seatgeek.com/images/performers-landscape/drake-f6d519/2351/1200x627.jpg",
+            "136x136": "https://seatgeek.com/images/performers-landscape/drake-159c25/2351/136x136.jpg",
+            "500_700": "https://seatgeek.com/images/performers-landscape/drake-6e659f/2351/500_700.jpg",
+            "800x320": "https://seatgeek.com/images/performers-landscape/drake-0810f9/2351/800x320.jpg",
+            "banner": "https://seatgeek.com/images/performers-landscape/drake-5270ef/2351/banner.jpg",
+            "block": "https://seatgeek.com/images/performers-landscape/drake-ad0220/2351/block.jpg",
+            "criteo_130_160": "https://seatgeek.com/images/performers-landscape/drake-e36892/2351/criteo_130_160.jpg",
+            "criteo_170_235": "https://seatgeek.com/images/performers-landscape/drake-7f6d9b/2351/criteo_170_235.jpg",
+            "criteo_205_100": "https://seatgeek.com/images/performers-landscape/drake-049f1b/2351/criteo_205_100.jpg",
+            "criteo_400_300": "https://seatgeek.com/images/performers-landscape/drake-7c7fa3/2351/criteo_400_300.jpg",
+            "fb_100x72": "https://seatgeek.com/images/performers-landscape/drake-ea37be/2351/fb_100x72.jpg",
+            "fb_600_315": "https://seatgeek.com/images/performers-landscape/drake-1fac50/2351/fb_600_315.jpg",
+            "huge": "https://seatgeek.com/images/performers-landscape/drake-596c64/2351/huge.jpg",
+            "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/drake-2b8ef2/2351/ipad_event_modal.jpg",
+            "ipad_header": "https://seatgeek.com/images/performers-landscape/drake-43d9e5/2351/ipad_header.jpg",
+            "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/drake-4fa826/2351/ipad_mini_explore.jpg",
+            "mongo": "https://seatgeek.com/images/performers-landscape/drake-c7bf4b/2351/mongo.jpg",
+            "square_mid": "https://seatgeek.com/images/performers-landscape/drake-ed28b0/2351/square_mid.jpg",
+            "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/drake-490583/2351/triggit_fb_ad.jpg"
+          },
+          "image": "https://seatgeek.com/images/performers-landscape/drake-596c64/2351/huge.jpg",
+          "document_source": {
+            "source_type": "ELASTIC",
+            "generation_type": "FULL"
+          }
+        },
+        {
+          "id": 493,
+          "name": "Rap",
+          "slug": "rap",
+          "primary": false,
+          "images": {
+            "1200x525": "https://seatgeek.com/images/performers-landscape/jelly-roll-398545/25461/1200x525.jpg",
+            "1200x627": "https://seatgeek.com/images/performers-landscape/jelly-roll-e6c631/25461/1200x627.jpg",
+            "136x136": "https://seatgeek.com/images/performers-landscape/jelly-roll-308dc9/25461/136x136.jpg",
+            "500_700": "https://seatgeek.com/images/performers-landscape/jelly-roll-973644/25461/500_700.jpg",
+            "800x320": "https://seatgeek.com/images/performers-landscape/jelly-roll-7d53e6/25461/800x320.jpg",
+            "banner": "https://seatgeek.com/images/performers-landscape/jelly-roll-137f01/25461/banner.jpg",
+            "block": "https://seatgeek.com/images/performers-landscape/jelly-roll-8fbddc/25461/block.jpg",
+            "criteo_130_160": "https://seatgeek.com/images/performers-landscape/jelly-roll-b63e1a/25461/criteo_130_160.jpg",
+            "criteo_170_235": "https://seatgeek.com/images/performers-landscape/jelly-roll-59d53d/25461/criteo_170_235.jpg",
+            "criteo_205_100": "https://seatgeek.com/images/performers-landscape/jelly-roll-1d1f42/25461/criteo_205_100.jpg",
+            "criteo_400_300": "https://seatgeek.com/images/performers-landscape/jelly-roll-5696b0/25461/criteo_400_300.jpg",
+            "fb_100x72": "https://seatgeek.com/images/performers-landscape/jelly-roll-6085b2/25461/fb_100x72.jpg",
+            "fb_600_315": "https://seatgeek.com/images/performers-landscape/jelly-roll-ab1295/25461/fb_600_315.jpg",
+            "huge": "https://seatgeek.com/images/performers-landscape/jelly-roll-5123ed/25461/huge.jpg",
+            "ipad_event_modal": "https://seatgeek.com/images/performers-landscape/jelly-roll-789460/25461/ipad_event_modal.jpg",
+            "ipad_header": "https://seatgeek.com/images/performers-landscape/jelly-roll-35bc01/25461/ipad_header.jpg",
+            "ipad_mini_explore": "https://seatgeek.com/images/performers-landscape/jelly-roll-634d6e/25461/ipad_mini_explore.jpg",
+            "mongo": "https://seatgeek.com/images/performers-landscape/jelly-roll-1c4d09/25461/mongo.jpg",
+            "square_mid": "https://seatgeek.com/images/performers-landscape/jelly-roll-458da1/25461/square_mid.jpg",
+            "triggit_fb_ad": "https://seatgeek.com/images/performers-landscape/jelly-roll-7b0825/25461/triggit_fb_ad.jpg"
+          },
+          "image": "https://seatgeek.com/images/performers-landscape/jelly-roll-5123ed/25461/huge.jpg",
+          "document_source": {
+            "source_type": "ELASTIC",
+            "generation_type": "FULL"
+          }
+        }
+      ],
+      "popularity": 0,
+      "location": null,
+      "image_rights_message": "(c) Michael Tran / FilmMagic / Getty Images"
+    }
+  ],
+  "is_open": false,
+  "links": [],
+  "datetime_local": "2024-03-01T20:00:00",
+  "time_tbd": false,
+  "short_title": "Nicki Minaj",
+  "visible_until_utc": "2024-03-02T08:00:00",
+  "stats": {
+    "listing_count": 625,
+    "average_price": 977,
+    "lowest_price_good_deals": 251,
+    "lowest_price": 251,
+    "highest_price": 10902,
+    "visible_listing_count": 513,
+    "dq_bucket_counts": [71, 174, 125, 67, 62, 63, 54, 0],
+    "median_price": 750,
+    "lowest_sg_base_price": 182,
+    "lowest_sg_base_price_good_deals": 182,
+    "ticket_count": 1775
+  },
+  "taxonomies": [
+    {
+      "id": 2000000,
+      "name": "concert",
+      "parent_id": null,
+      "rank": 0,
+      "seo_event_type": ""
+    }
+  ],
+  "url": "https://seatgeek.com/nicki-minaj-tickets/oakland-california-oakland-arena-2024-03-01-8-pm/concert/6309628",
+  "score": 0.675,
+  "announce_date": "2023-12-11T00:00:00",
+  "created_at": "2023-12-11T17:52:18",
+  "date_tbd": false,
+  "title": "Nicki Minaj",
+  "popularity": 0.85,
+  "description": "",
+  "status": "normal",
+  "access_method": {
+    "method": "QRCODE_TM",
+    "created_at": "2015-11-04T18:42:51Z",
+    "employee_only": false
+  },
+  "event_promotion": null,
+  "announcements": {},
+  "conditional": false,
+  "enddatetime_utc": null,
+  "visible_at": null,
+  "is_visible_override": "VISIBLE",
+  "tdc_pvo_id": 0,
+  "tdc_pv_id": 0,
+  "is_visible": true,
+  "performer_order": [],
+  "themes": [],
+  "domain_information": []
+}
